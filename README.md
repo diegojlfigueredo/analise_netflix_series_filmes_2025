@@ -1,31 +1,34 @@
-# Análise de Dados Netflix: Séries e Filmes (Até 2025)
+# 🎬 Análise de Dados Netflix: Catálogo de Séries e Filmes (Até 2025)
+
+![Netflix Logo](imagens/netflix.png)
 
 ## 📊 Visão Geral do Projeto
 
-Este projeto consiste em uma análise exploratória de dados (EDA) detalhada sobre o catálogo de séries e filmes da Netflix, utilizando dados atualizados até o ano de 2025. O objetivo é extrair insights sobre tendências de conteúdo, popularidade de gêneros, diretores, atores, países de origem e padrões de adição de títulos à plataforma ao longo do tempo.
+Este repositório apresenta uma **Análise Exploratória de Dados (EDA)** aprofundada sobre o vasto catálogo de séries e filmes da Netflix, utilizando dados atualizados até o ano de 2025. O projeto visa desvendar padrões, tendências e características do conteúdo disponível na plataforma, fornecendo insights valiosos sobre sua evolução e composição.
 
 ### 🎯 Objetivos da Análise
 
-* Compreender a composição do catálogo da Netflix (filmes vs. séries).
-* Identificar os gêneros mais predominantes e populares.
-* Analisar a distribuição de conteúdo por ano de lançamento e adição à plataforma.
-* Descobrir os diretores e atores mais prolíficos.
-* Explorar a origem geográfica do conteúdo.
-* Analisar a distribuição de classificações etárias (ratings) e numéricas.
-* Visualizar a distribuição da duração de filmes e o número de temporadas de séries.
+* **Compreender a Proporção:** Analisar a distribuição entre filmes e séries no catálogo da Netflix.
+* **Tendências Temporais:** Investigar a evolução do volume de conteúdo por ano de lançamento e por ano de adição à plataforma.
+* **Conteúdo Popular:** Identificar os gêneros mais predominantes, bem como os diretores e atores mais prolíficos.
+* **Geografia do Conteúdo:** Explorar a origem dos títulos, destacando os países que mais contribuem para o catálogo.
+* **Classificação Etária e Avaliações:** Examinar a distribuição das classificações indicativas e das avaliações numéricas do conteúdo.
+* **Características do Conteúdo:** Analisar a distribuição da duração de filmes e o número de temporadas de séries.
 
 ## 🚀 Tecnologias Utilizadas
 
-* **Python:** Linguagem de programação principal.
-* **Jupyter Notebook:** Ambiente interativo para desenvolvimento e apresentação da análise (`analise_netflix_series_filmes_2025.ipynb`).
-* **Pandas:** Biblioteca para manipulação e análise de dados.
-* **Matplotlib:** Biblioteca para criação de gráficos estáticos.
-* **Seaborn:** Biblioteca para visualização de dados estatísticos (baseada no Matplotlib).
-* **Git & GitHub:** Controle de versão e hospedagem do projeto.
+Este projeto foi desenvolvido utilizando as seguintes ferramentas e bibliotecas:
+
+* **Python:** Linguagem de programação fundamental para análise e manipulação de dados.
+* **Jupyter Notebook:** Ambiente interativo para desenvolvimento, execução e documentação da análise (`notebook/analise_netflix_series_filmes_2025.ipynb`).
+* **Pandas:** Biblioteca robusta para estruturas de dados e ferramentas de análise de dados de alto desempenho.
+* **Matplotlib:** Biblioteca para criação de gráficos estáticos, animados e interativos em Python.
+* **Seaborn:** Biblioteca de visualização de dados baseada em Matplotlib, fornecendo uma interface de alto nível para gráficos estatísticos atraentes.
+* **Git & GitHub:** Para controle de versão do projeto e hospedagem do código-fonte.
 
 ## 📁 Estrutura do Projeto
 
-O repositório está organizado da seguinte forma:
+O repositório está organizado de forma clara para facilitar a navegação e compreensão:
 
 ├── dados/
 
@@ -46,34 +49,47 @@ O repositório está organizado da seguinte forma:
 └── README.md
 
 
-* `dados/`: Contém os arquivos CSV brutos utilizados na análise.
-* `imagens/`: Armazena todos os gráficos e visualizações gerados durante a EDA.
-* `notebook/`: Contém o Jupyter Notebook principal com todo o código de análise.
-* `.gitignore`: Define quais arquivos e pastas devem ser ignorados pelo Git.
-* `README.md`: Este arquivo, fornecendo uma visão geral do projeto.
+* `dados/`: Contém os conjuntos de dados brutos em formato CSV utilizados na análise.
+* `imagens/`: Armazena todos os gráficos e visualizações gerados durante a fase de Análise Exploratória de Dados.
+* `notebook/`: Contém o Jupyter Notebook principal, que engloba todas as etapas da análise, desde o carregamento dos dados até a geração dos insights e gráficos.
+* `.gitignore`: Arquivo de configuração para o Git, que especifica quais arquivos e diretórios devem ser ignorados do controle de versão.
+* `README.md`: Este documento, fornecendo uma visão geral completa do projeto.
 
-## 📊 Análise e Resultados (Insights Principais)
+## 📈 Análise e Resultados (Insights Principais)
 
-Nesta seção, você deve resumir os insights mais interessantes que obteve dos seus gráficos. **Seja conciso e use os nomes dos gráficos como referência.**
+A análise dos dados da Netflix revelou padrões e tendências interessantes no catálogo da plataforma. Abaixo estão os principais insights derivados das visualizações:
 
-**Preencha com as SUAS PRÓPRIAS CONCLUSÕES baseadas nos gráficos gerados:**
+### 1. Evolução do Catálogo ao Longo do Tempo
 
-* **Crescimento do Catálogo:** Observe a "Distribuição de Conteúdo por Ano de Adição à Plataforma". Há um crescimento constante? Houve picos ou quedas em anos específicos?
-    * *Exemplo:* "Os gráficos de adição de conteúdo à plataforma ('distribuicao_conteudo_por_ano_adicao.png') indicam um crescimento significativo do catálogo da Netflix a partir de 2015, com um pico notável em [Ano do Pico], mostrando a expansão da empresa."
-* **Tendências de Lançamento:** Analise a "Distribuição de Conteúdo Netflix por Ano de Lançamento". Há mais conteúdo recente ou mais antigo?
-    * *Exemplo:* "A maioria dos títulos lançados anualmente se concentra em [intervalo de anos], enquanto a plataforma continua a adicionar filmes e séries de anos anteriores, conforme visto em 'distribuicao_conteudo_por_ano_lancamento.png'."
-* **Gêneros Dominantes:** Quais são os gêneros mais comuns para filmes e séries nos gráficos de "Top 10 Gêneros"?
-    * *Exemplo:* "Os gêneros 'Drama' e 'Comédia' se destacam consistentemente como os mais presentes tanto para filmes ('top_10_generos_filmes.png') quanto para séries ('top_10_generos_series.png'), refletindo um possível foco nesses segmentos."
-* **Classificações Numéricas:** Observe os gráficos de "Distribuição de Classificações Numéricas". Quais faixas de pontuação são mais comuns? O que o valor 0.0 pode indicar?
-    * *Exemplo:* "A análise das classificações numéricas ('distribuicao_ratings_numericos_filmes.png' e 'distribuicao_ratings_numericos_series.png') mostra que a maior parte do conteúdo tem uma pontuação entre [valor mínimo] e [valor máximo], sugerindo uma vasta oferta de títulos de qualidade média a alta. A alta contagem de 0.0 pode indicar conteúdo não avaliado."
-* **Origem do Conteúdo:** Quais países se destacam na produção de filmes e séries? Veja os gráficos de "Top 10 Países Produtores".
-    * *Exemplo:* "Os Estados Unidos são o principal país de origem para filmes e séries na Netflix, como evidenciado nos gráficos de 'top_10_paises_filmes.png' e 'top_10_paises_series.png'. Há também uma presença notável de produções de [Outro País 1] e [Outro País 2]."
-* **Duração e Formato de Séries/Filmes:** Quais são as durações mais comuns para filmes e quantas temporadas são mais frequentes para séries?
-    * *Exemplo:* "A maioria dos filmes na Netflix tem uma duração concentrada entre [X] e [Y] minutos ('distribuicao_duracao_filmes.png'). Para séries, observa-se uma clara preferência por títulos com 1 ou 2 temporadas ('distribuicao_num_temporadas_series.png'), o que pode influenciar a estratégia de consumo."
+* **Ano de Lançamento:** A distribuição do ano de lançamento (`distribuicao_conteudo_por_ano_lancamento.png`) mostra que, embora a Netflix adicione conteúdo de diversas épocas, há uma clara predominância de títulos mais recentes, indicando um foco contínuo em produções atuais.
+* **Ano de Adição à Plataforma:** O volume de conteúdo adicionado à Netflix (`distribuicao_conteudo_por_ano_adicao.png`) apresenta um crescimento exponencial, com um pico significativo por volta de [**INSIRA O ANO DO PICO DE ADIÇÃO, ex: 2020-2021**]. Isso reflete a fase de intensa expansão e investimento da plataforma em seu catálogo.
+
+### 2. Gêneros e Conteúdo
+
+* **Gêneros de Filmes:** Os **Top 10 Gêneros de Filmes** (`top_10_generos_filmes.png`) destacam [**INSIRA AQUI OS PRINCIPAIS GÊNEROS DE FILMES, ex: "Drama", "Comédia", "Documentário"**] como os mais abundantes, sugerindo que esses são pilares do acervo cinematográfico da Netflix.
+* **Gêneros de Séries:** Similarmente, para séries, os **Top 10 Gêneros de Séries** (`top_10_generos_series.png`) revelam a popularidade de categorias como [**INSIRA AQUI OS PRINCIPAIS GÊNEROS DE SÉRIES, ex: "Drama", "Séries de TV", "Comédia"**], indicando a diversidade e o apelo a diferentes públicos.
+
+### 3. Principais Talentos
+
+* **Diretores:** Os **Top 10 Diretores** para filmes (`top_10_diretores_filmes.png`) e séries (`top_10_diretores_series.png`) mostram a influência de certos criadores, com [**INSIRA O NOME DE UM OU DOIS DIRETORES PRINCIPAIS**] frequentemente contribuindo com múltiplos títulos.
+* **Atores/Atrizes:** Os **Top 10 Atores/Atrizes** (`top_10_atores_filmes.png`, `top_10_atores_series.png`) indicam figuras recorrentes no catálogo, como [**INSIRA O NOME DE UM OU DOIS ATORES/ATRIZES PRINCIPAIS**], que participam de diversas produções, o que pode atrair fãs específicos.
+
+### 4. Classificações e Origem do Conteúdo
+
+* **Classificações Numéricas:** A **Distribuição de Classificações Numéricas** para filmes (`distribuicao_ratings_numericos_filmes.png`) e séries (`distribuicao_ratings_numericos_series.png`) revela uma concentração de títulos com avaliações entre [**INSIRA A FAIXA DE VALORES MAIS COMUM, ex: 6.0 e 8.0**]. A presença de valores `0.0` pode indicar conteúdo ainda não avaliado ou valores ausentes nos dados originais.
+* **Países Produtores:** Os **Top 10 Países Produtores** (`top_10_paises_filmes.png`, `top_10_paises_series.png`) demonstram que [**INSIRA O PAÍS PRINCIPAL, ex: "Estados Unidos"**] é o maior contribuinte de conteúdo, seguido por uma crescente diversidade de produções internacionais, como [**INSIRA OUTROS PAÍSES RELEVANTES, ex: "Índia", "Reino Unido"**].
+
+### 5. Características de Duração
+
+* **Duração de Filmes:** O gráfico de **Duração de Filmes** (`distribuicao_duracao_filmes.png`) indica que a maioria dos filmes na Netflix tem uma duração concentrada entre [**INSIRA A FAIXA DE MINUTOS MAIS COMUM, ex: 90 e 120 minutos**], alinhando-se a um formato padrão de longa-metragem.
+* **Número de Temporadas de Séries:** A **Distribuição do Número de Temporadas de Séries** (`distribuicao_num_temporadas_series.png`) revela uma forte predominância de séries com 1 temporada, o que pode indicar uma estratégia da Netflix de lançar séries mais curtas ou com potencial para futuras temporadas, dependendo do sucesso inicial.
 
 ## 🤝 Como Contribuir
 
-Sinta-se à vontade para abrir issues ou pull requests para melhorias, sugestões ou correções neste projeto. Toda contribuição é bem-vinda!
+Contribuições são bem-vindas! Se você tiver sugestões de melhorias, correções ou novas análises, sinta-se à vontade para:
+
+1.  Abrir uma [Issue](https://github.com/diegojlfigueredo/analise_netflix_series_filmes_2025/issues) para relatar bugs ou sugerir novas funcionalidades.
+2.  Criar um [Pull Request](https://github.com/diegojlfigueredo/analise_netflix_series_filmes_2025/pulls) com suas modificações e melhorias.
 
 ## 📧 Contato
 
