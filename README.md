@@ -30,50 +30,6 @@ Este projeto foi desenvolvido utilizando as seguintes ferramentas e bibliotecas:
 
 O repositório está organizado de forma clara para facilitar a navegação e compreensão:
 
-Entendido! Sem problemas. Vou gerar novamente o conteúdo completo do README.md, desta vez com os caminhos dos gráficos exatamente como eles devem ser para aparecerem no GitHub, baseando-me nos nomes de arquivos que você tem na sua pasta imagens/.
-
-Por favor, siga estas instruções cuidadosamente:
-
-Copie TODO o conteúdo que está entre as linhas de código abaixo.
-Abra o arquivo README.md na pasta raiz do seu projeto (D:\03 - Portfolios\portfolio_diego\analise_netflix_series_filmes_2025\) com um editor de texto (como VS Code, Sublime Text ou até o Bloco de Notas).
-Cole o conteúdo copiado, substituindo TODO o texto existente no seu README.md.
-MUITO IMPORTANTE:
-Preencha as seções entre [ ] (colchetes) com suas informações pessoais e específicas do projeto.
-Revise e PERSONALIZE os insights na seção "Análise e Resultados (Insights Principais)". Os exemplos que deixei são genéricos para ilustrar onde cada gráfico se encaixa, mas você deve descrever as suas próprias descobertas e números específicos dos seus gráficos (ex: qual o ano do pico de adição de conteúdo, quais são os 3 principais gêneros, etc.).
-Markdown
-
-# 🎬 Análise de Dados Netflix: Catálogo de Séries e Filmes (Até 2025)
-
-![Logo Netflix](imagens/netflix.png)
-
-## 📊 Visão Geral do Projeto
-
-Este repositório apresenta uma **Análise Exploratória de Dados (EDA)** aprofundada sobre o vasto catálogo de séries e filmes da Netflix, utilizando dados atualizados até o ano de 2025. O projeto visa desvendar padrões, tendências e características do conteúdo disponível na plataforma, fornecendo insights valiosos sobre sua evolução e composição.
-
-### 🎯 Objetivos da Análise
-
-* Compreender a proporção e as tendências de crescimento entre filmes e séries no catálogo.
-* Identificar os gêneros mais predominantes e populares em ambas as categorias.
-* Analisar a contribuição dos principais diretores e atores/atrizes para o conteúdo.
-* Explorar a distribuição geográfica da produção de filmes e séries.
-* Examinar a distribuição das classificações numéricas atribuídas aos títulos.
-* Investigar padrões de duração para filmes e o número de temporadas para séries.
-
-## 🚀 Tecnologias Utilizadas
-
-Este projeto foi desenvolvido utilizando as seguintes ferramentas e bibliotecas:
-
-* **Python:** Linguagem de programação fundamental para análise e manipulação de dados.
-* **Jupyter Notebook:** Ambiente interativo para desenvolvimento, execução e documentação da análise (`notebook/analise_netflix_series_filmes_2025.ipynb`).
-* **Pandas:** Biblioteca robusta para estruturas de dados e ferramentas de análise de dados de alto desempenho.
-* **Matplotlib:** Biblioteca para criação de gráficos estáticos e personalização de visualizações.
-* **Seaborn:** Biblioteca de visualização de dados estatísticos baseada em Matplotlib, facilitando a criação de gráficos informativos e atraentes.
-* **Git & GitHub:** Para controle de versão do projeto, colaboração e hospedagem do código-fonte.
-
-## 📁 Estrutura do Projeto
-
-O repositório está organizado de forma clara para facilitar a navegação e compreensão:
-
 ├── dados/
 
 │   ├── netflix_movies_detailed_up_to_2025.csv
@@ -89,8 +45,6 @@ O repositório está organizado de forma clara para facilitar a navegação e co
 ├── .gitignore
 
 └── README.md
-
-
 
 * `dados/`: Contém os conjuntos de dados brutos em formato CSV utilizados na análise.
 * `imagens/`: Armazena todos os gráficos e visualizações gerados durante a fase de Análise Exploratória de Dados.
@@ -139,7 +93,6 @@ Contribuições são muito bem-vindas! Se você tiver sugestões de melhorias, c
 
 1.  Abrir uma [Issue](https://github.com/diegojlfigueredo/analise_netflix_series_filmes_2025/issues) para relatar bugs ou sugerir novas ideias.
 2.  Criar um [Pull Request](https://github.com/diegojlfigueredo/analise_netflix_series_filmes_2025/pulls) com suas modificações e melhorias propostas.
-
 
 ## 📧 Contato
 
